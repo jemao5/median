@@ -40,6 +40,7 @@ public class Median {
         if(highIndex>lowIndex) {
             swap(a, lowIndex, highIndex);
             pass(a, low, high);
+            return 1;
         } else {
             swap(a, lowIndex, high);
             return(lowIndex);
